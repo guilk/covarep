@@ -1,0 +1,200 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1044664346" file="/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp.prj" location="/home/guilk/Documents/covarep/distribution/linux/C++" name="covarep_cpp" preferred-package-location="/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_redistribution" preferred-package-type="package.type.install" target="target.ezdeploy.library" target-name="Library Compiler">
+    <param.appname>covarep_cpp</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>/covarep_cpp/</param.installpath.string>
+    <param.installpath.combo>option.installpath.user</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}/covarep_cpp/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/covarep_cpp/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/covarep_cpp/for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.library.cpp</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.namespace>covarep_cpp</param.namespace>
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.net.framework>option.net.framework.default</param.net.framework>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace>covarep_cpp</param.net.tsa.namespace>
+    <param.net.tsa.superclass>Class1</param.net.tsa.superclass>
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>/home/guilk</param.net.tsa.metadata.assembly>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.support.packages />
+      <param.namespace />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.user.only.registration />
+      <param.net.framework />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+    </unset>
+    <fileset.exports>
+      <file>/home/guilk/Documents/covarep/envelope/env_te.m</file>
+      <file>/home/guilk/Documents/covarep/envelope/hspec2fwcep.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/detect_creaky_voice.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/gci_sedreams.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/get_vq_params.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/iaif_gci.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/lpcresidual.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/mdq.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/peakslope.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/pitch_srh.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/polarity_reskew.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/rd_msp.m</file>
+      <file>/home/guilk/Documents/covarep/sinusoidal/sin_analysis.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/hmpd_analysis.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/hmpd_analysis_features.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="Class1">
+          <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/detect_creaky_voice.m</file>
+          <file>/home/guilk/Documents/covarep/envelope/env_te.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/gci_sedreams.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/get_vq_params.m</file>
+          <file>/home/guilk/Documents/covarep/vocoder/hmpd/hmpd_analysis.m</file>
+          <file>/home/guilk/Documents/covarep/vocoder/hmpd/hmpd_analysis_features.m</file>
+          <file>/home/guilk/Documents/covarep/envelope/hspec2fwcep.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/iaif_gci.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/lpcresidual.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/mdq.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/peakslope.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/pitch_srh.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/polarity_reskew.m</file>
+          <file>/home/guilk/Documents/covarep/glottalsource/rd_msp.m</file>
+          <file>/home/guilk/Documents/covarep/sinusoidal/sin_analysis.m</file>
+        </entity.class>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/creaky_voice_do_detection.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_all_creak_features.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_creak_h2h1.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_delta_mat.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_ifp.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_ishi_params_inter.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_kd_creak_features.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_res_peak_prom.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_short_pow.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/get_zero_x_rate.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/ishi_creak_detection.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/res_peak.m</file>
+      <file>/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/private/sil_unv_features.m</file>
+      <file>/home/guilk/Documents/covarep/sinusoidal/private/get_optimal_winlen.m</file>
+      <file>/home/guilk/Documents/covarep/sinusoidal/private/interp1_extrapbounds.m</file>
+      <file>/home/guilk/Documents/covarep/sinusoidal/private/spec_fit_freq_amp.m</file>
+      <file>/home/guilk/Documents/covarep/sinusoidal/private/spec_getsins.m</file>
+      <file>/home/guilk/Documents/covarep/sinusoidal/private/spec_getsins_f0.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/private/hlin2hlog.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/private/hmpd_amplitude_envelope_estimate.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/private/hmpd_features_compress.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/private/hmpd_phase_deviation.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/private/hmpd_phase_mean.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/private/hmpd_phase_smooth.m</file>
+      <file>/home/guilk/Documents/covarep/vocoder/hmpd/private/philin2philog.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/covarep_cpp/for_testing" name="covarep_cpp.h" optional="false">/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.h</file>
+      <file location="${PROJECT_ROOT}/covarep_cpp/for_testing" name="covarep_cpp.so" optional="false">/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.so</file>
+      <file location="${PROJECT_ROOT}/covarep_cpp/for_testing" name="readme.txt" optional="true">/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.4.0-34-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

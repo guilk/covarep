@@ -1,0 +1,142 @@
+ant:
+<ant>
+  <mkdir dir="/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_redistribution" />
+  <mkdir dir="/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing" />
+  <mkdir dir="/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_redistribution_files_only" />
+</ant>
+mcc -W cpplib:covarep_cpp -T link:lib -d /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing -v /home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/detect_creaky_voice.m /home/guilk/Documents/covarep/envelope/env_te.m /home/guilk/Documents/covarep/glottalsource/gci_sedreams.m /home/guilk/Documents/covarep/glottalsource/get_vq_params.m /home/guilk/Documents/covarep/vocoder/hmpd/hmpd_analysis.m /home/guilk/Documents/covarep/vocoder/hmpd/hmpd_analysis_features.m /home/guilk/Documents/covarep/envelope/hspec2fwcep.m /home/guilk/Documents/covarep/glottalsource/iaif_gci.m /home/guilk/Documents/covarep/glottalsource/lpcresidual.m /home/guilk/Documents/covarep/glottalsource/mdq.m /home/guilk/Documents/covarep/glottalsource/peakslope.m /home/guilk/Documents/covarep/glottalsource/pitch_srh.m /home/guilk/Documents/covarep/glottalsource/polarity_reskew.m /home/guilk/Documents/covarep/glottalsource/rd_msp.m /home/guilk/Documents/covarep/sinusoidal/sin_analysis.m 
+Name is nonexistent or not a directory: /home/guilk/Documents/MATLAB
+Compiler version: 6.0 (R2015a)
+[Warning: The name of a shared library should begin with the letters "lib".
+'covarep_cpp' doesn't.] 
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection" to
+Compiler path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/envelope" to Compiler path
+instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/vocoder/hmpd" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/vocoder/hmpd" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/envelope" to Compiler path
+instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/glottalsource" to Compiler
+path instance.] 
+[Warning: Adding path "/home/guilk/Documents/covarep/sinusoidal" to Compiler
+path instance.] 
+Parsing file "/home/guilk/Documents/covarep/glottalsource/creaky_voice_detection/detect_creaky_voice.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/envelope/env_te.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/gci_sedreams.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/get_vq_params.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/vocoder/hmpd/hmpd_analysis.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/vocoder/hmpd/hmpd_analysis_features.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/envelope/hspec2fwcep.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/iaif_gci.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/lpcresidual.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/mdq.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/peakslope.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/pitch_srh.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/polarity_reskew.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/glottalsource/rd_msp.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "/home/guilk/Documents/covarep/sinusoidal/sin_analysis.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 4 temporary MEX authorization files.
+Removing: '/tmp/02e94YuTYsG_11924.auth'.
+Removing: '/tmp/02e94EtcmPD_11924.auth'.
+Removing: '/tmp/02e94XZukcB_11924.auth'.
+Removing: '/tmp/02e94ytqrzy_11924.auth'.
+Generating file "/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.h".
+Generating file "/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.cpp".
+Generating file "/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.exports".
+Generating file "/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/readme.txt".
+Executing command: "/usr/local/MATLAB/R2015a/bin/mbuild"  -client mbuild -O -v -output "covarep_cpp" -I"/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing" "/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.cpp" CXXFLAGS="-fPIC -ansi -pthread" LDEXT=".so" LDTYPE="-shared " -outdir "/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing"Verbose mode is on.
+No MEX options file identified; looking for an implicit selection.
+... Looking for compiler 'g++' ...
+... Executing command 'which g++' ...Yes ('/usr/bin/g++').
+... Executing command 'g++ -print-file-name=libstdc++.so' ...Yes ('/usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so').
+Found installed compiler 'g++'.
+Options file details
+-------------------------------------------------------------------
+	Compiler location: $GCC_DIR
+	Options file: /usr/local/MATLAB/R2015a/bin/glnxa64/mexopts/g++_glnxa64.xml
+	CMDLINE1 : /usr/bin/g++ -c -D_GNU_SOURCE  -DUNIX -DX11 -DGLNXA64 -DGCC -I/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing  -I"/usr/local/MATLAB/R2015a/extern/include" -I"/usr/local/MATLAB/R2015a/simulink/include" -I"/usr/local/MATLAB/R2015a/extern/include/cpp" -fPIC -ansi -pthread -O -DNDEBUG /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.cpp -o /tmp/mex_3705621645735_12015/covarep_cpp.o
+	CMDLINE2 : /usr/bin/g++ -pthread -Wl,-rpath-link,/usr/local/MATLAB/R2015a/bin/glnxa64 -shared -O  /tmp/mex_3705621645735_12015/covarep_cpp.o   -L"/usr/local/MATLAB/R2015a/runtime/glnxa64" -lm -lmwmclmcrrt -o /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.so
+	CMDLINE3 : rm -f /tmp/mex_3705621645735_12015/covarep_cpp.o
+	CXX : /usr/bin/g++
+	DEFINES : -D_GNU_SOURCE  -DUNIX -DX11 -DGLNXA64 -DGCC
+	MATLABMEX : 
+	CXXFLAGS : -fPIC -ansi -pthread
+	INCLUDE : -I/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing  -I"/usr/local/MATLAB/R2015a/extern/include" -I"/usr/local/MATLAB/R2015a/simulink/include" -I"/usr/local/MATLAB/R2015a/extern/include/cpp"
+	CXXOPTIMFLAGS : -O -DNDEBUG
+	CXXDEBUGFLAGS : -g
+	LDXX : /usr/bin/g++
+	LDFLAGS : -pthread -Wl,-rpath-link,/usr/local/MATLAB/R2015a/bin/glnxa64
+	LDTYPE : -shared
+	LINKEXPORT : 
+	LINKLIBS : -L"/usr/local/MATLAB/R2015a/runtime/glnxa64" -lm -lmwmclmcrrt
+	LDOPTIMFLAGS : -O
+	LDDEBUGFLAGS : -g
+	OBJEXT : .o
+	LDEXT : .so
+	GCC : /usr/bin/g++
+	CPPLIB_DIR : /usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.so
+	MATLABROOT : /usr/local/MATLAB/R2015a
+	ARCH : glnxa64
+	SRC : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.cpp
+	OBJ : /tmp/mex_3705621645735_12015/covarep_cpp.o
+	OBJS : /tmp/mex_3705621645735_12015/covarep_cpp.o 
+	SRCROOT : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp
+	DEF : /tmp/mex_3705621645735_12015/covarep_cpp.def
+	EXP : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.exp
+	LIB : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.lib
+	EXE : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.so
+	ILK : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.ilk
+	MANIFEST : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.so.manifest
+	TEMPNAME : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp
+	EXEDIR : /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/
+	EXENAME : covarep_cpp
+	OPTIM : -O -DNDEBUG
+	LINKOPTIM : -O
+-------------------------------------------------------------------
+Building with 'g++'.
+Warning: You are using gcc version '5.4.0'. The version of gcc is not supported. The version currently supported with MEX is '4.7.x'. For a list of currently supported compilers see: http://www.mathworks.com/support/compilers/current_release.
+Warning: You are using gcc version '5.4.0-6ubuntu1~16.04.2)'. The version of gcc is not supported. The version currently supported with MEX is '4.7.x'. For a list of currently supported compilers see: http://www.mathworks.com/support/compilers/current_release.
+/usr/bin/g++ -c -D_GNU_SOURCE  -DUNIX -DX11 -DGLNXA64 -DGCC -I/home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing  -I"/usr/local/MATLAB/R2015a/extern/include" -I"/usr/local/MATLAB/R2015a/simulink/include" -I"/usr/local/MATLAB/R2015a/extern/include/cpp" -fPIC -ansi -pthread -O -DNDEBUG /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.cpp -o /tmp/mex_3705621645735_12015/covarep_cpp.o
+/usr/bin/g++ -pthread -Wl,-rpath-link,/usr/local/MATLAB/R2015a/bin/glnxa64 -shared -O  /tmp/mex_3705621645735_12015/covarep_cpp.o   -L"/usr/local/MATLAB/R2015a/runtime/glnxa64" -lm -lmwmclmcrrt -o /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_testing/covarep_cpp.so
+rm -f /tmp/mex_3705621645735_12015/covarep_cpp.o
+Packaging...
+Creating the bundle...
+Web based installer created at /home/guilk/Documents/covarep/distribution/linux/C++/covarep_cpp/for_redistribution/MyAppInstaller_web.install.
+Packaging complete.
+Elapsed packaging time was: 47 seconds.
